@@ -19,7 +19,10 @@ Computes total (0–200 cm) soil moisture from GLDAS by combining individual soi
 
 3) Groundwater Storage Anomalies
 
-Calculates groundwater storage anomalies over the overlapping 2002–2024 GRACE–GLDAS period.
+Calculates groundwater storage anomalies over the overlapping 2002–2024 GRACE–GLDAS period using the water balance equation:
+
+GWSA = $TWSA_{\text{GRACE}} - (SMA + SWEA + CWA)$
+
 
 4) Standardized Output
 
